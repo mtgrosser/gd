@@ -7,7 +7,7 @@ module GD
     when /darwin/ then 'libgd.dylib'
     when /mswin32/, /cygwin/ then 'bgd.dll'
     else
-      'libgd.so.2'
+      'libgd.so'
     end
 
     extern 'void* gdImageCreateFromPng(void *)'

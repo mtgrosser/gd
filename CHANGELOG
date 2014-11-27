@@ -1,0 +1,5 @@
+0.0.3 - Nov 27, 2014
+
+* Use libgd.so on Linux systems
+  Usually the appropriate symlink is provided by the gd-devel package
+
